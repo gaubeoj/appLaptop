@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ActivityKH.KH_ThanhToan_Activity">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/toolbar_don_hang"/>
+
+    <LinearLayout
+        android:id="@+id/loadingView"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:text="Đang tải dữ liệu\n Vui lòng đợi..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <me.ibrahimsn.lib.CirclesLoadingView
+            app:circleRadius="17dp"
+            app:circleMargin="17dp"
+            app:animDistance="17dp"
+            app:animDuration="500"
+            app:animDelay="150"
+            app:animInterpolator="accelerateDecelerate"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_above="@id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="#80BBA19A"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="7dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp">
+
+                        <ImageView
+                            android:src="@drawable/don_hang_icon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="@string/th_ng_tin_n_h_ng"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        tools:listitem="@layout/cardview_kh_thanhtoan"
+                        android:id="@+id/recyclerView_DonHang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:padding="7dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp">
+
+                    <LinearLayout
+                        android:id="@+id/tv_dcnh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp">
+
+                        <ImageView
+                            android:src="@drawable/icon_location"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="@string/a_ch_nh_n_h_ng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView_DiaChi"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#4E352F"
+                        android:layout_below="@id/tv_dcnh"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/textView_Change_Address"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="#3852B0"
+                        android:text="@string/thay_i"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:padding="7dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp">
+
+                    <LinearLayout
+                        android:id="@+id/tv_httt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp">
+
+                        <ImageView
+                            android:src="@drawable/payment_icon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="@string/h_nh_th_c_thanh_to_n"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView_HinhThucTT"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Thanh toán khi nhận hàng"
+                        android:textColor="#4E352F"
+                        android:layout_below="@id/tv_httt"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/textView_Change_HTTT"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="#3852B0"
+                        android:text="@string/thay_i"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="7dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@drawable/hoa_don_icon"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="@string/chi_ti_t_n_h_ng"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:paddingStart="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#4E352F"
+                            android:text="@string/t_ng_ti_n_h_ng"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/textView_TienHang"
+                            android:textColor="#4E352F"
+                            android:gravity="end"
+                            android:text="30.000đ"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:paddingStart="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#4E352F"
+                            android:text="@string/voucher_gi_m_gi"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/textView_TienGiamGia"
+                            android:textColor="#4E352F"
+                            android:gravity="end"
+                            android:text="0.000đ"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:paddingStart="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:textSize="19sp"
+                            android:text="@string/t_ng_thanh_to_n"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/textView_Total"
+                            android:textColor="#F00000"
+                            android:textSize="19sp"
+                            android:gravity="end"
+                            android:text="30.000đ"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="7dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/dieu_khoan_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="10dp"
+                        android:text="Nhấn “Đặt hàng” đồng nghĩa với việc bạn đồng ý tuân thủ  theo điều khoản FPT shop "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/bottom"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:text="@string/t_ng_thanh_to_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/textView_Total2"
+                    android:layout_gravity="end"
+                    android:textColor="#F00000"
+                    android:textSize="19sp"
+                    android:text="30.000đ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_DatHang"
+                android:layout_marginStart="15dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#D2422F"
+                android:text="@string/t_h_ng"
+                android:layout_width="128dp"
+                android:layout_height="64dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

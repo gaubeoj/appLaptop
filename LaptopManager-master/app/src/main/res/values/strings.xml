@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">LAPFAN</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="email">Email</string>
+    <string name="emailhint">Email...</string>
+    <string name="password">Mật khẩu</string>
+    <string name="passwordhint">Mật khẩu...</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="log_in">Đăng nhập</string>
+    <string name="don_t_have_account_yet">Chưa có tài khoản?</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="remember_me">Ghi nhớ tôi?</string>
+    <string name="confirm_password">Nhập lại mật khẩu</string>
+    <string name="confirm_password_hint">Nhập lại mật khẩu...</string>
+    <string name="register">Đăng ký</string>
+    <string name="already_have_an_account">Đã có tài khoản?</string>
+    <string name="next">Tiếp theo</string>
+    <string name="previous">Quay lại</string>
+
+    <string name="ng_nh_p_v_i_t_c_ch">Đăng nhập với tư cách</string>
+    <string name="admin">Admin</string>
+    <string name="nh_n_vi_n">Nhân viên</string>
+    <string name="kh_ch_h_ng">Khách hàng</string>
+    <string name="search">Tìm kiếm...</string>
+    <string name="m_t_kh_u_hi_n_t_i">Mật khẩu hiện tại *</string>
+    <string name="m_t_kh_u_m_i">Mật khẩu mới *</string>
+    <string name="nh_p_l_i_m_t_kh_u_m_i">Nhập lại mật khẩu mới *</string>
+    <string name="thay_i_m_t_kh_u">Thay đổi mật khẩu</string>
+    <string name="h_y">Hủy</string>
+    <string name="h">Họ</string>
+    <string name="t_n">Tên</string>
+    <string name="s_i_n_tho_i">Số điện thoại</string>
+    <string name="gi_i_t_nh">Giới tính</string>
+    <string name="qu_qu_n">Quê quán</string>
+    <string name="c_p_nh_t">Cập nhật</string>
+    <string name="home">Home</string>
+    <string name="th_ng_b_o">Thông Báo</string>
+    <string name="gi_h_ng">Giỏ Hàng</string>
+    <string name="account">Tài Khoản</string>
+
+    <string-array name="gender_array">
+        <item>Chọn giới tính</item>
+        <item>Nam</item>
+        <item>Nữ</item>
+        <item>Khác</item>
+    </string-array>
+
+    <string-array name="role_array">
+        <item>Chọn bộ phận</item>
+        <item>Bán hàng Online</item>
+        <item>Bán hàng Ofline</item>
+    </string-array>
+
+    <string-array name="select_role_array">
+        <item>Tất cả</item>
+        <item>Bán hàng Online</item>
+        <item>Bán hàng Ofline</item>
+    </string-array>
+
+    <string-array name="hang_laptop_array">
+        <item>Dell</item>
+        <item>HP</item>
+        <item>Asus</item>
+        <item>Acer</item>
+        <item>MSi</item>
+        <item>MacBook</item>
+    </string-array>
+
+    <string-array name="ram_array">
+        <item>RAM 4GB</item>
+        <item>RAM 8GB</item>
+        <item>RAM 16GB</item>
+        <item>RAM 32GB</item>
+    </string-array>
+
+    <string-array name="httt_array">
+        <item>Thanh toán khi nhận hàng</item>
+        <item>Thanh toán qua Ví FPTPay</item>
+    </string-array>
+
+    <string-array name="chon_anh_laptop">
+        <item>Chọn ảnh từ thư viện</item>
+        <item>Nhập link ảnh</item>
+    </string-array>
+
+    <string name="a_ch_nh_n_h_ng">Địa chỉ nhận hàng</string>
+    <string name="thay_i">Thay đổi</string>
+    <string name="h_nh_th_c_thanh_to_n">Hình thức thanh toán</string>
+    <string name="voucher">Voucher</string>
+    <string name="chi_ti_t_n_h_ng">Chi tiết đơn hàng</string>
+    <string name="t_ng_ti_n_h_ng">Tổng tiền hàng</string>
+    <string name="voucher_gi_m_gi">Voucher giảm giá</string>
+    <string name="t_ng_thanh_to_n">Tổng thanh toán</string>
+    <string name="t_h_ng">Đặt hàng</string>
+    <string name="info">Laptop</string>
+    <string name="x_c_nh_n_n_h_ng">Xác nhận đơn hàng</string>
+    <string name="li_n_h">Liên hệ</string>
+    <string name="trang_ch">Trang chủ</string>
+    <string name="danh_m_c_s_n_ph_m">⌄ Danh Mục Sản Phẩm ⌄</string>
+    <string name="danh_m_c_qu_n_l">⌄ Danh mục quản lý ⌄</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+    <string name="nh_p_a_ch_nh_n_h_ng">Nhập địa chỉ nhận hàng</string>
+    <string name="t_n_ng_i_nh_n">Tên người nhận</string>
+    <string name="nh_p_h_t_n_ng_i_nh_n"><![CDATA[Nhập họ & tên người nhận]]></string>
+    <string name="nh_p_s_i_n_tho_i_nh_n_h_ng">Nhập số điện thoại nhận hàng</string>
+    <string name="nh_p_s_nh_t_n_ng">Nhập số nhà, tên đường...</string>
+    <string name="t_nh_th_nh_ph">Tỉnh/ Thành phố</string>
+    <string name="nh_p_t_nh_th_nh_ph">Chọn Tỉnh/ Thành phố</string>
+    <string name="qu_n_huy_n">Quận/ Huyện</string>
+    <string name="nh_p_qu_n_huy_n">Chọn Quận/ Huyện</string>
+    <string name="ph_ng_x">Phường/ Xã</string>
+    <string name="nh_p_ph_ng_x">Chọn Phường/ Xã</string>
+    <string name="thi_t_l_p_t_i_kho_n">Thiết lập tài khoản</string>
+    <string name="nh_m_s_n_voucher">Nhóm săn voucher</string>
+    <string name="i_m_t_kh_u">Đổi mật khẩu</string>
+    <string name="qu_n_l_n_h_ng">Quản lý đơn hàng</string>
+    <string name="nh_gi_s_n_ph_m">Đánh giá sản phẩm</string>
+    <string name="m_khuy_n_m_i">Mã khuyến mãi</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="n_h_ng">Đơn đặt hàng</string>
+    <string name="add_staff">Thêm Nhân viên</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="th_ng_k">Thống Kê</string>
+    <string name="h_t_n">Họ Tên</string>
+    <string name="m_o_b_n_h_ng_chuy_n_nghi_p">Mẹo bán hàng chuyên nghiệp</string>
+    <string name="c_ng_ng_nh_n_vi_n">Cộng đồng nhân viên</string>
+    <string name="total">Tổng tiền</string>
+    <string name="pay_now">Thanh toán</string>
+    <string name="gi_h_ng_tr_ng">Giỏ hàng trống</string>
+    <string name="laptop_hp">Laptop HP</string>
+    <string name="laptop_dell">Laptop Dell</string>
+    <string name="laptop_asus">Laptop Asus</string>
+    <string name="laptop_acer">Laptop Acer</string>
+    <string name="laptop_msi">Laptop MSi</string>
+    <string name="luu_y_danh_gia">Chia sẻ cảm nhận của bạn về sản phẩm trong đơn hàng để nhận ưu đãi. Lưu ý: Nếu đánh giá nội dung không phù hợp, tài khoản sẽ bị xóa.</string>
+    <string name="ch_t_l_ng_s_n_ph_m">Chất lượng sản phẩm:</string>
+    <string name="ch_t_l_ng_s_n_ph_m_tuy_t_v_i">Chất lượng sản phẩm tuyệt vời</string>
+    <string name="r_t_ng_ti_n">Rất đáng tiền</string>
+    <string name="shop_ph_c_v_t_t">Shop phục vụ tốt</string>
+    <string name="th_i_gian_giao_h_ng_r_t_nhanh">Thời gian giao hàng rất nhanh</string>
+    <string name="hint_review"><font color="#817F7F" size="15">Hãy chia sẻ những điều bạn thích về sản phẩm nhé...</font></string>
+    <string name="hint_review2"><font color="#817F7F" size="15">Đánh giá của khách hàng...</font></string>
+    <string name="hint_review3"><font color="#817F7F" size="15">Nhập lý do xóa tài khoản của bạn...</font></string>
+    <string name="ho_n_th_nh">Hoàn Thành</string>
+    <string name="fpt_shop">FPT Shop</string>
+    <string name="giao_h_ng_th_nh_c_ng">Giao hàng thành công</string>
+    <string name="nh_gi_ngay_v_nh_n_u_i">Đánh giá ngay và nhận ưu đãi</string>
+    <string name="nh_gi">Đánh giá</string>
+    <string name="h_ng_d_n_s_d_ng_app">Hướng dẫn sử dụng app</string>
+    <string name="gi_m_gi">Giảm giá</string>
+    <string name="s_d_ng">Sử dụng</string>
+    <string name="danh_s_ch_voucher">Danh sách Voucher</string>
+    <string name="th_ng_n_y">Tháng này</string>
+    <string name="doanh_thu_b_n_h_ng">Doanh thu bán hàng</string>
+    <string name="theo_doanh_thu">Theo doanh thu</string>
+    <string name="theo_s_l_ng">Theo số lượng</string>
+    <string name="s_n_ph_m_b_n_ch_y">Sản phẩm bán chạy</string>
+    <string name="m_t_kh_u">Mật khẩu</string>
+    <string name="t_n_li_n_h">Tên liên hệ</string>
+    <string name="t_n_nh_n_vi_n">Tên nhân viên</string>
+    <string name="t_o_m_i">Tạo mới</string>
+    <string name="mi_n_ph_v_n_chuy_n">Miễn phí vận chuyển</string>
+    <string name="laptop">Laptop</string>
+    <string name="h_ng_laptop">Hãng laptop</string>
+    <string name="doanh_s_b_n_h_ng_c_a_nh_n_vi_n">Doanh số bán hàng của nhân viên</string>
+    <string name="doanh_thu">Doanh thu</string>
+    <string name="th_m_voucher">Thêm Voucher</string>
+    <string name="th_m_kh_ch_h_ng">Thêm Khách hàng</string>
+    <string name="th_ng_tin_n_h_ng">Thông tin đơn hàng</string>
+    <string name="t_n_laptop">Tên Laptop</string>
+    <string name="th_ng_s_kt">Thông số KT</string>
+    <string name="lo_i_laptop">Loại Laptop</string>
+    <string name="gi_ti_n">Giá tiền</string>
+    <string name="th_i_gian_k_t_th_c">Thời gian kết thúc</string>
+    <string name="th_i_gian_b_t_u">Thời gian bắt đầu</string>
+    <string name="u_i">Ưu đãi %</string>
+    <string name="t_n_voucher">Tên Voucher</string>
+    <string name="m_voucher">Mã Voucher</string>
+    <string name="t_n_kh_ch_h_ng">Tên khách hàng</string>
+    <string name="tskt_ram_4g">Thông số kĩ thuật: \n - CPU: i3, 1005G1, 1.2GHz \n - RAM: 4 GB, DDR4 (Onboard 4 GB +1 khe rời), 2400 MHz \n - Ổ cứng: Hỗ trợ khe cắm HDD SATA (Nâng cấp tối đa 2TB), 256 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 512 GB)  \n - Màn hình: 15.6", Full HD (1920 x 1080) \n - Card màn hình: Card rời, MX330 2GB \n - Cổng kết nối: USB 2.0, HDMI, Jack tai nghe 3.5 mm, 2 x USB 3.1 \n - Hệ điều hành: Windows 11 Home SL \n - Thiết kế: Vỏ nhựa \n - Kích thước, khối lượng: Dài 363.4 mm - Rộng 250.5 mm - Dày 19.95 mm - Nặng 1.9 kg \n - Thời điểm ra mắt: 2021</string>
+    <string name="tskt_ram_8g">Thông số kĩ thuật: \n - CPU: i7, 12700H, 2.30 GHz \n -RAM: 8 GB, DDR4 2 khe (1 khe 8 GB + 1 khe rời), 3200 MHz \n - Ổ cứng: 512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1 TB), Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe mở rộng (nâng cấp tối đa 2 TB) \n - Màn hình: 15.6", Full HD (1920 x 1080) 144Hz \n - Card màn hình: Card rời, RTX 3050Ti 4GB \n - Cổng kết nối: USB Type-CLAN (RJ45), 3 x USB 3.2, HDMI, Jack tai nghe 3.5 mm \n - Đặc biệt: Có đèn bàn phím \n - Hệ điều hành: Windows 11 Home SL \n - Thiết kế: Vỏ nhựa \n - Kích thước, khối lượng: Dài 360.4 mm - Rộng 271.09 mm - Dày 25.9 mm - Nặng 2.5 kg \n - Thời điểm ra mắt: 2022</string>
+    <string name="tskt_ram_16g">Thông số kĩ thuật: \n - CPU: i5, 1240P, 1.7GHz \n - RAM: 16 GB, LPDDR4X (Onboard), 4267 MHz \n - Ổ cứng: 512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1TB) \n - Màn hình: 14", QHD (2160 x 1440) \n - Card màn hình: Card tích hợp, Intel Iris Xe \n - Cổng kết nối: 2 x Thunderbolt 4, HDMIJack tai nghe 3.5 mm, 2 x USB 3.2 \n - Đặc biệt: Có đèn bàn phím \n - Hệ điều hành: Windows 11 Home SL \n - Thiết kế: Vỏ kim loại \n - Kích thước, khối lượng: Dài 321 mm - Rộng 210.8 mm - Dày 15.9 mm - Nặng 1.2 kg \n - Thời điểm ra mắt: 2022</string>
+    <string name="tskt_ram_32g">Thông số kĩ thuật: \n - CPU: i7, 11800H, 2.30 GHz \n - RAM: 32 GBDDR4 2 khe (1 khe 16 GB + 1 khe 16 GB), 3200 MHz \n - Ổ cứng: 2 TB SSD NVMe PCIe, Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe mở rộng (nâng cấp tối đa 2 TB) \n - Màn hình: 15.6", QHD (2560 x 1440), 240Hz \n - Card màn hình: Card rời, RTX 3080 16GB \n - Cổng kết nối: HDMI, LAN (RJ45), USB Type-C, Mini DisplayPort, Jack tai nghe 3.5 mm, Thunderbolt 4 USB-C, 3 x USB 3.2 \n - Đặc biệt: Có đèn bàn phím \n - Hệ điều hành: Windows 10 Home SL \n - Thiết kế: Vỏ kim loại \n - Kích thước, khối lượng: Dài 358 mm - Rộng 267 mm - Dày 23.4 mm - Nặng 2.38 Kg \n - Thời điểm ra mắt: 2021</string>
+    <string name="macbook">MacBook</string>
+    <string name="b_n">Đã bán: </string>
+    <string name="n_h_ng_mua">Đơn hàng đã mua</string>
+    <string name="n_h_ng_b_n">Đơn hàng đã bán</string>
+    <string name="mua_ngay">$ Mua ngay $</string>
+    <string name="nh_gi_c_a_b_n">Đánh giá của bạn:</string>
+    <string name="v_i_n_t_fptpay">Ví điện tử FPTPay</string>
+    <string name="nh_gi_c_a_kh_ch_h_ng">Đánh giá của khách hàng:</string>
+    <string name="th_ng_tin_kh_ch_h_ng">Thông tin khách hàng:</string>
+    <string name="v_fpt_pay">Ví FPT Pay</string>
+    <string name="t_i_kho_n_ng_n_h_ng">Tài khoản ngân hàng</string>
+    <string name="l_ch_s_giao_d_ch">Lịch sử giao dịch</string>
+    <string name="s_ti_n">Số tiền:</string>
+    <string name="n_p_ti_n">Nạp tiền</string>
+    <string name="th_nh_ti_n">Thành tiền*</string>
+    <string name="m_n_h_ng">Mã đơn hàng</string>
+    <string name="th_i_gian_t_h_ng">Thời gian đặt hàng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thay_i_m">Thay đổi mã</string>
+    <string name="s_l_ng_nh_p">Số lượng nhập</string>
+    <string name="theo_s_l_ng_ncao_ti_n_nh_t">Lớn tiền nhất</string>
+    <string name="theo_s_l_ng_nth_p_ti_n_nh_t">Thấp tiền nhất</string>
+    <string name="bi_u_doanh_thu">Biểu đồ thống kê</string>
+    <string name="b_ph_n">Bộ phận</string>
+    <string name="th_ng_tin_nh_n_vi_n">Thông tin nhân viên:</string>
+    <string name="l_do_x_a_t_i_kho_n">Lý do xóa tài khoản:</string>
+    <string name="x_a_t_i_kho_n">Xóa tài khoản</string>
+    <string name="tr_c">Trước</string>
+    <string name="sau">Sau</string>
+    <string name="pre"><![CDATA[<<<]]></string>
+    <string name="nex"><![CDATA[>>>]]></string>
+</resources>

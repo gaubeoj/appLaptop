@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityKH.KH_DonHang_CTT_Activity">
+
+    <include layout="@layout/toolbar_normal"/>
+
+    <LinearLayout
+        android:id="@+id/loadingView"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:text="Đang tải dữ liệu\n Vui lòng đợi..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <me.ibrahimsn.lib.CirclesLoadingView
+            app:circleRadius="17dp"
+            app:circleMargin="17dp"
+            app:animDistance="17dp"
+            app:animDuration="500"
+            app:animDelay="150"
+            app:animInterpolator="accelerateDecelerate"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_KH_DonHang"
+        tools:listitem="@layout/cardview_kh_donhang_laptop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/linearDonHangEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Không có đơn hàng nào"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/empty_order" />
+    </LinearLayout>
+
+</LinearLayout>

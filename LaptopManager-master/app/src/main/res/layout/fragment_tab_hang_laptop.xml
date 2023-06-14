@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentQuanLy.Tab_HangLaptop_Fragment">
+
+    <LinearLayout
+        android:id="@+id/loadingView"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:text="Đang tải dữ liệu\n Vui lòng đợi..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <me.ibrahimsn.lib.CirclesLoadingView
+            app:circleRadius="17dp"
+            app:circleMargin="17dp"
+            app:animDistance="17dp"
+            app:animDuration="500"
+            app:animDelay="150"
+            app:animInterpolator="accelerateDecelerate"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_marginTop="20dp"
+        android:id="@+id/gridView_hangLaptop"
+        android:gravity="center"
+        android:numColumns="2"
+        android:columnWidth="150dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="16dp"
+        tools:listitem="@layout/cardview_nva_hanglaptop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

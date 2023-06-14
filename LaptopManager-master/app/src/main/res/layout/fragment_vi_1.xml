@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CreateWallet.Vi_Fragment1">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@drawable/protect_wallet"
+        app:tint="#009688" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanh toán an toàn\nvà tiện lợi"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#BF000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="3dp"
+        android:text="Tạo ví điện tử FPT Pay để thanh toán đơn hàng bất cứ lúc nào.\n Ví FPT Pay với bảo mật cao sẽ giữ túi tiền của bạn an toàn."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>

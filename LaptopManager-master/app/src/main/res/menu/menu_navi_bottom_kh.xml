@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home" android:id="@+id/item_navi_bottom_kh_home"
+        android:icon="@drawable/home_navi_icon"/>
+    <item android:title="@string/th_ng_b_o" android:id="@+id/item_navi_bottom_kh_noti"
+        android:icon="@drawable/noti_navi_icon"/>
+    <item android:title="@string/gi_h_ng" android:id="@+id/item_navi_bottom_kh_gioHang"
+        android:icon="@drawable/gio_hang_navi_icon"/>
+    <item android:title="@string/account" android:id="@+id/item_navi_bottom_kh_acc"
+        android:icon="@drawable/acc_navi_icon"/>
+</menu>

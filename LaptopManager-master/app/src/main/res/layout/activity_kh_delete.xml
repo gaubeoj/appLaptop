@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityKH.KH_Delete_Activity">
+
+    <include layout="@layout/toolbar_normal" />
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/l_do_x_a_t_i_kho_n"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_LyDoXoaTK"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_text_input_layout"
+            android:gravity="fill_horizontal"
+            android:hint="@string/hint_review3"
+            android:padding="7dp"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Email của bạn"
+            android:textColor="#222121"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#473535"
+            android:id="@+id/edittext_emailXoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tôi đồng ý và muốn xóa tài khoản của mình ngay bây giờ." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_huyXoaTKKH"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F5F5"
+                android:text="Hủy"
+                android:textColor="#090707"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_xoaTKKH"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F5F5"
+                android:text="Đồng ý"
+                android:textColor="#F80909"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

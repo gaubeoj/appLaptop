@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="25dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CreateWallet.Vi_Fragment2">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@drawable/deal_payment_image"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nạp tiền uy tín\nvà chính xác"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#BF000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="3dp"
+        android:text="Khách hàng khi nạp tiền cần chờ Admin xác nhận thanh toán.\nSau khi Admin xác nhận số tiền trong ví của khách hàng sẽ cập nhật."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>

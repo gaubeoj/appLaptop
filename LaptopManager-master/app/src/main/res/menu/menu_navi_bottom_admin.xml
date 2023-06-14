@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home" android:id="@+id/item_navi_bottom_admin_home"
+        android:icon="@drawable/home_navi_icon"/>
+    <item android:title="@string/th_ng_b_o" android:id="@+id/item_navi_bottom_admin_noti"
+        android:icon="@drawable/noti_navi_icon"/>
+    <item android:title="@string/th_ng_k" android:id="@+id/item_navi_bottom_admin_thongKe"
+        android:icon="@drawable/thong_ke_navi_icon"/>
+    <item android:title="@string/add_staff" android:id="@+id/item_navi_bottom_add_staff"
+        android:icon="@drawable/add_staff_navi_icon"/>
+</menu>

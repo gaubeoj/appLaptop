@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2422F"
+    tools:context=".FragmentNV_Admin.NVA_Home_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#D2422F"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_TenUser"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/change_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:background="@drawable/shape_button3">
+
+                <ImageView
+                    android:id="@+id/imageView_Calendar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:src="@drawable/calendar_icon" />
+
+                <TextView
+                    android:id="@+id/textView_Date"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFEFE0">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="@string/doanh_thu_b_n_h_ng"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/textView_GiaTien"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FF0000"
+                        android:textSize="19sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doanhthu_home_img" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingStart="15dp"
+                android:paddingEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:background="#FFEFE0">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="@string/n_h_ng"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textView_Soluong_DH"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFEFE0"
+                        android:textColor="#000000"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="end"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_Soluong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#3852B0"
+                        android:textSize="22sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_GoTo_DonDat"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/next_icon_black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFEFE0">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView_Title"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s_n_ph_m_b_n_ch_y"
+                        android:textSize="20sp" />
+
+                    <HorizontalScrollView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:paddingBottom="5dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/button_Theo_DoanhThu"
+                                android:layout_marginBottom="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="60dp"
+                                android:backgroundTint="#fff"
+                                android:background="@drawable/shape_button3"
+                                android:text="@string/theo_doanh_thu"
+                                android:textColor="#D2422F"
+                                android:textSize="11sp"/>
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/button_Theo_ThapTien"
+                                android:layout_width="150dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:backgroundTint="#fff"
+                                android:background="@drawable/shape_button3"
+                                android:text="@string/theo_s_l_ng_nth_p_ti_n_nh_t"
+                                android:textColor="@color/black"
+                                android:textSize="11sp" />
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/button_Theo_CaoTien"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_width="150dp"
+                                android:layout_height="60dp"
+                                android:backgroundTint="#fff"
+                                android:background="@drawable/shape_button3"
+                                android:text="@string/theo_s_l_ng_ncao_ti_n_nh_t"
+                                android:textColor="@color/black"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/onlick_Laptop"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_item">
+
+                    <LinearLayout
+                        android:paddingStart="5dp"
+                        android:paddingEnd="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_item">
+
+                        <ImageView
+                            android:id="@+id/imageView_Laptop"
+                            android:layout_margin="5dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+
+                        <View
+                            android:background="@color/black"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"/>
+
+                        <RelativeLayout
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/textView_TenLaptop"
+                                android:layout_above="@id/textView_GiaTien_Laptop"
+                                android:layout_alignParentTop="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:id="@+id/textView_GiaTien_Laptop"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#D2422F"
+                                android:textSize="18sp"/>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

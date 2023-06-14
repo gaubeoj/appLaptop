@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FragmentQuanLy.QL_Laptop_Fragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/laptopTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="center"
+        app:tabTextColor="@color/black"
+        app:tabIndicatorColor="#F00000"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/laptop" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/h_ng_laptop" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <fragment
+        android:id="@+id/laptopFrag"
+        android:name="com.nhom5.quanlylaptop.FragmentQuanLy.Tab_Laptop_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_tab_laptop" />
+
+    <fragment
+        android:id="@+id/hangLaptopFrag"
+        android:name="com.nhom5.quanlylaptop.FragmentQuanLy.Tab_HangLaptop_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_tab_hang_laptop" />
+
+</LinearLayout>

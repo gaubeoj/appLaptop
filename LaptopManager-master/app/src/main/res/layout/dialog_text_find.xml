@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/shape_round"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText_Search"
+            android:textSize="20sp"
+            android:textColor="#9A0236"
+            android:textStyle="italic"
+            android:textColorHint="#B33F51B5"
+            android:backgroundTint="#B33F51B5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_Search_Dialog"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:text="Tìm kiếm"
+            android:textSize="20sp"
+            android:drawablePadding="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="#F44336"
+            android:background="@drawable/shape_button0"
+            android:drawableStart="@drawable/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_navi_drawer_admin_trangChu"
+        android:icon="@drawable/home_navi_icon"
+        android:title="@string/trang_ch" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_noti"
+        android:icon="@drawable/noti_navi_icon"
+        android:title="@string/th_ng_b_o" />
+
+    <item
+        android:icon="@drawable/danh_muc_icon"
+        android:title="@string/danh_m_c_qu_n_l" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_Laptop"
+        android:title="Laptop" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_DonHang"
+        android:title="Đơn hàng" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_KhachHang"
+        android:title="Khách hàng" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_Voucher"
+        android:title="Voucher" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_NhanVien"
+        android:title="Nhân viên" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_ThongKe"
+        android:icon="@drawable/thong_ke_navi_icon"
+        android:title="Thống kê" />
+    <item
+        android:id="@+id/item_navi_drawer_admin_Them_NV"
+        android:icon="@drawable/add_staff_navi_icon"
+        android:title="Thêm nhân viên" />
+    <item
+        android:id="@+id/item_navi_drawer_admin_Logout"
+        android:icon="@drawable/logout_icon"
+        android:title="@string/ng_xu_t" />
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_navi_drawer_nv_trangChu"
+        android:icon="@drawable/home_navi_icon"
+        android:title="@string/trang_ch" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_noti"
+        android:icon="@drawable/noti_navi_icon"
+        android:title="@string/th_ng_b_o" />
+
+    <item
+        android:icon="@drawable/danh_muc_icon"
+        android:title="@string/danh_m_c_qu_n_l" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_Laptop"
+        android:title="Laptop" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_DonHang"
+        android:title="Đơn hàng" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_KhachHang"
+        android:title="Khách hàng" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_Voucher"
+        android:title="Voucher" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_ThongKe"
+        android:icon="@drawable/thong_ke_navi_icon"
+        android:title="Thống kê" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_DH_Damua"
+        android:icon="@drawable/don_hang_navi_icon"
+        android:title="Đơn hàng đã bán" />
+
+    <item
+        android:id="@+id/item_navi_drawer_nv_lienHe"
+        android:icon="@drawable/lien_he_icon"
+        android:title="@string/li_n_h" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_Logout"
+        android:icon="@drawable/logout_icon"
+        android:title="@string/ng_xu_t" />
+
+</menu>

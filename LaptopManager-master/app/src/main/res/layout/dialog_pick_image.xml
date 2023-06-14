@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <Button
+        android:drawableTint="#0046B5"
+        android:drawableLeft="@drawable/camera"
+        android:id="@+id/openCamera"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:textColor="#0062FF"
+        android:textSize="20sp"
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:drawableTint="#0046B5"
+        android:drawableLeft="@drawable/gallery_icon"
+        android:id="@+id/openGallery"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:textColor="#0062FF"
+        android:textSize="20sp"
+        android:text="Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

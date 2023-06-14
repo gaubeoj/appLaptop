@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:backgroundTint="#FFFFFF"
+        android:background="@drawable/shape_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/imageView_Laptop"
+                android:layout_width="185dp"
+                android:layout_height="190dp" />
+
+            <TextView
+                android:id="@+id/textView_TenLaptop"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#422D29"
+                android:textSize="11sp" />
+
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textView_GiaTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F20C0C"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/storage_icon" />
+
+                <LinearLayout
+                    android:paddingTop="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trong kho: "
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/textView_Soluong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/sold_icon" />
+
+                    <LinearLayout
+                        android:paddingTop="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Đã bán: "
+                            android:textColor="#F20C0C" />
+
+                        <TextView
+                            android:text="10"
+                            android:id="@+id/textView_SoSP_DaBan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#F20C0C" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton_Delete"
+                    android:src="@drawable/garbage_can_icon"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView_HangLaptop"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

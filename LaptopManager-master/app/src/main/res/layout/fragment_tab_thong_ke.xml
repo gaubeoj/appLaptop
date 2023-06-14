@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FragmentQuanLy.Tab_ThongKe_Fragment">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/change_Time"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shape_button3">
+
+            <ImageView
+                android:id="@+id/imageView_Calendar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:src="@drawable/calendar_icon" />
+
+            <TextView
+                android:id="@+id/textView_Date"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="@string/th_ng_n_y"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:background="#80BBA19A"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <TextView
+        android:text="@string/doanh_s_b_n_h_ng_c_a_nh_n_vi_n"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="#80BBA19A"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/loadingView"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:gravity="center"
+                android:text="Đang tải dữ liệu\n Vui lòng đợi..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <me.ibrahimsn.lib.CirclesLoadingView
+                app:circleRadius="17dp"
+                app:circleMargin="17dp"
+                app:animDistance="17dp"
+                app:animDuration="500"
+                app:animDelay="150"
+                app:animInterpolator="accelerateDecelerate"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_ThongKe"
+            tools:listitem="@layout/cardview_nva_thongke"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

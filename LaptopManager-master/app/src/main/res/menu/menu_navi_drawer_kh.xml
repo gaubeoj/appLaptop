@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_navi_drawer_kh_trangChu"
+        android:icon="@drawable/home_navi_icon"
+        android:title="@string/trang_ch" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_thongBao"
+        android:icon="@drawable/noti_navi_icon"
+        android:title="@string/th_ng_b_o" />
+
+    <item
+        android:icon="@drawable/danh_muc_icon"
+        android:title="@string/danh_m_c_s_n_ph_m" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lTDell"
+        android:title="Laptop Dell" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lTHP"
+        android:title="Laptop HP" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lTAsus"
+        android:title="Laptop Asus" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lTAcer"
+        android:title="Laptop Acer" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lTMsi"
+        android:title="Laptop MSi" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_mac"
+        android:title="MacBook" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_gioHang"
+        android:icon="@drawable/gio_hang_navi_icon"
+        android:title="Giỏ Hàng" />
+    <item
+        android:id="@+id/item_navi_drawer_kh_DH_Damua"
+        android:icon="@drawable/don_hang_navi_icon"
+        android:title="Đơn hàng đã mua" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_vi"
+        android:icon="@drawable/icon_naptien"
+        android:title="Ví FPT pay " />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_lienHe"
+        android:icon="@drawable/lien_he_icon"
+        android:title="@string/li_n_h" />
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_Logout"
+        android:icon="@drawable/logout_icon"
+        android:title="@string/ng_xu_t" />
+</menu>
